@@ -33,3 +33,5 @@ pip install -r requirements.txt
 FLASK_APP=server.py flask run
 ```
 
+Go to `localhost:5000` in your web browser to view the web app.
+
