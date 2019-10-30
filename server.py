@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, send_from_directory
 
 from start import get_media_list
 
-app = Flask(__name__, static_url_path = "")
+app = Flask(__name__, static_url_path="")
 
 
 @app.route("/api/load", methods=['POST'])
